@@ -8,5 +8,6 @@ CREATE TABLE users (
 CREATE TABLE songs (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     title TEXT NOT NULL,
-    vid_id TEXT NOT NULL
+    vid_id TEXT NOT NULL,
+    thumbnail TEXT NOT NULL
 );
