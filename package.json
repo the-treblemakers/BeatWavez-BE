@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "type": "module",
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules jest --verbose --runInBand --testLocationInResults --setupFiles dotenv/config",
     "test:watch": "npm run test -- --watch",
@@ -25,6 +24,7 @@
     "@types/pg": "^8.6.0",
     "eslint": "^7.28.0",
     "jest": "^27.0.4",
+    "msw": "^0.29.0",
     "nodemon": "^2.0.7",
     "prettier": "^2.3.1",
     "supertest": "^6.1.3"
