@@ -54,7 +54,7 @@ jest.mock('../lib/models/Video', () => ({
             "snippet": {
                 "publishedAt": "2013-11-25T12:29:55Z",
                 "channelId": "UCbqcG1rdt9LMwOJN4PyGTKg",
-                "title": "Mock Material Girl - Madonna | Karaoke Version | KaraFun",
+                "title": "Mockterial Girl - Madonna | Karaoke Version | KaraFun",
                 "description": "* This version contains a low volume vocal guide to help you learn the song. The karaoke version without the vocal guide is available on www.karafun.com.",
                 "thumbnails": {
                     "default": {
@@ -94,7 +94,7 @@ describe('results routes', () => {
         expect(res.body).toEqual([
           {
             vidId: 'minVseI19c4',
-            title: 'Mock Material Girl - Madonna | Karaoke Version | KaraFun',
+            title: 'Mockterial Girl - Madonna | Karaoke Version | KaraFun',
             thumbnail: 'https://i.ytimg.com/vi/minVseI19c4/default.jpg',
           }
         ])
