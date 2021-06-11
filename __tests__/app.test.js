@@ -1,10 +1,10 @@
-require('dotenv').config();
-const pool = require('../lib/utils/pool');
-const setup = require('../data/setup');
-const request = require('supertest');
-const app = require('../lib/app');
 const formatVideos = require('../lib/utils/apiUtils');
 const searchMockData = require('./searchMockData.json');
+// const pool = require('../lib/utils/pool');
+// const setup = require('../data/setup');
+// const request = require('supertest');
+// const app = require('../lib/app');
+// require('dotenv').config();
 // const getAllMockData = require('./getAllMockData.json');
 
 describe('formatVideos', () => {
