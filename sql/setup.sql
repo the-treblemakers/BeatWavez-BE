@@ -19,7 +19,8 @@ CREATE TABLE songs (
 CREATE TABLE rooms (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     room_name TEXT NOT NULL,
-    host TEXT NOT NULL
+    host TEXT NOT NULL,
+    passcode BIGINT NOT NULL
     -- switch to user once authorization is setup, currently pull stagename of creator as host
 );
 CREATE TABLE queues (
