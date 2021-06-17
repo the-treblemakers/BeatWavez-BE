@@ -13,12 +13,14 @@ CREATE TABLE songs (
     vid_id TEXT NOT NULL,
     thumbnail TEXT NOT NULL,
     channel_name TEXT NOT NULL,
-    channel_id TEXT NOT NUll
+    channel_id TEXT NOT NUll, 
+    view_count BIGINT NOT NULL
 );
 CREATE TABLE rooms (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     room_name TEXT NOT NULL,
-    host TEXT NOT NULL
+    host TEXT NOT NULL,
+    passcode BIGINT NOT NULL
     -- switch to user once authorization is setup, currently pull stagename of creator as host
 );
 CREATE TABLE queues (
