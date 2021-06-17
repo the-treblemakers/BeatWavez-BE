@@ -13,7 +13,8 @@ CREATE TABLE songs (
     vid_id TEXT NOT NULL,
     thumbnail TEXT NOT NULL,
     channel_name TEXT NOT NULL,
-    channel_id TEXT NOT NUll
+    channel_id TEXT NOT NUll, 
+    view_count BIGINT NOT NULL
 );
 CREATE TABLE rooms (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
