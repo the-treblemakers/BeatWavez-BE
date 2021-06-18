@@ -5,8 +5,6 @@
 [BeatWavez front-end repo](https://github.com/the-treblemakers/BeatWavez-FE) </br>
 [BeatWavez back-end repo](https://github.com/the-treblemakers/BeatWavez-BE)
 
-Project planning can be found on our Miro board (https://miro.com/app/board/o9J_lAEhh0A=/)
-
 # Description
 BeatWavez is a Jackbox-style karaoke party app that allows users to create and join party rooms, manage a queue, chat with each other, and (most importantly) sing along to lyrics from videos pulled via the YouTube API. This app was built mobile-first with React and Express, utilizing socket.io and material UI.
 
